@@ -1,0 +1,71 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\pante\\Source\\Repos\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api.csproj",
+    "projectName": "tecnofit.test.api",
+    "projectPath": "C:\\Users\\pante\\Source\\Repos\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api.csproj",
+    "outputPath": "C:\\Users\\pante\\Source\\Repos\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "Com.Airbnb.Xamarin.Forms.Lottie": {
+          "target": "Package",
+          "version": "[2.7.0, )"
+        },
+        "Microsoft.CSharp": {
+          "target": "Package",
+          "version": "[4.5.0, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[11.0.2, )"
+        },
+        "Prism.Unity.Forms": {
+          "target": "Package",
+          "version": "[7.1.0.431, )"
+        },
+        "RestSharp": {
+          "target": "Package",
+          "version": "[106.5.4, )"
+        },
+        "Xamarin.FFImageLoading.Forms": {
+          "target": "Package",
+          "version": "[2.4.4.859, )"
+        },
+        "Xamarin.Forms": {
+          "target": "Package",
+          "version": "[3.4.0.1008975, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

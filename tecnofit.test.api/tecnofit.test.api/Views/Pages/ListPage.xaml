@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:forms1="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="tecnofit.test.api.Views.Pages.ListPage"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <forms:CachedImage Source="background.png" Aspect="AspectFill" VerticalOptions="FillAndExpand"/>
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <StackLayout>
+                <Frame Padding="5" HeightRequest="50" WidthRequest="180" BackgroundColor="{StaticResource Green}" HorizontalOptions="CenterAndExpand" Margin="0,20,0,10">
+                    <DatePicker  TextColor="{StaticResource White}" HorizontalOptions="CenterAndExpand" Date="{Binding SelectedDate}">
+                    </DatePicker>
+                </Frame>
+                
+                <Label Grid.Row="1" Text="Selecione uma data" HorizontalOptions="CenterAndExpand"  TextColor="{StaticResource White}"  Margin="0,0,0,0"/>
+            
+                <Frame WidthRequest="220" HeightRequest="150" BackgroundColor="{StaticResource Green}" Margin="10,30,10,10" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Label Grid.ColumnSpan="3" Text="Seu saldo" HorizontalOptions="CenterAndExpand" FontSize="Large" Margin="0,10,0,0"  TextColor="{StaticResource White}"/>
+                        
+                        <Grid Grid.Row="1" Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding ActualValue}" HorizontalOptions="CenterAndExpand" FontSize="Large"  TextColor="{StaticResource White}"/>
+                            <Label Grid.Row="1" Text="Saldo atual" HorizontalOptions="CenterAndExpand"  TextColor="{StaticResource White}"/>
+                        </Grid>
+
+                        <BoxView Grid.Row="1" Grid.Column="1" WidthRequest="1" Margin="5" HeightRequest="30" BackgroundColor="{StaticResource White}"/>
+                        
+                        <Grid Grid.Row="1" Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding PreviousValue}" HorizontalOptions="CenterAndExpand" FontSize="Large"  TextColor="{StaticResource White}"/>
+                            <Label Grid.Row="1" Text="Saldo anterior" HorizontalOptions="CenterAndExpand"  TextColor="{StaticResource White}"/>
+                        </Grid>
+                    </Grid>
+                </Frame>
+                
+                  <Frame WidthRequest="220" HeightRequest="150" BackgroundColor="{StaticResource Green}" Margin="10,30,10,20" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Label Grid.ColumnSpan="3" Text="Suas contas" HorizontalOptions="CenterAndExpand" FontSize="Large" Margin="0,10,0,0"  TextColor="{StaticResource White}"/>
+                        
+                        <Grid Grid.Row="1" Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding BillToPay}" HorizontalOptions="CenterAndExpand" FontSize="Large"  TextColor="{StaticResource White}"/>
+                            <Label Grid.Row="1" Text="Contas a pagar" HorizontalOptions="CenterAndExpand"  TextColor="{StaticResource White}"/>
+                        </Grid>
+
+                        <BoxView Grid.Row="1" Grid.Column="1" WidthRequest="1" Margin="5" HeightRequest="30" BackgroundColor="{StaticResource White}"/>
+                        
+                        <Grid Grid.Row="1" Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding BillToReceive}" HorizontalOptions="CenterAndExpand" FontSize="Large"  TextColor="{StaticResource White}"/>
+                            <Label Grid.Row="1" Text="Contas a receber" HorizontalOptions="CenterAndExpand" TextColor="{StaticResource White}"/>
+                        </Grid>
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+        
+        <Grid Grid.Row="0"  BackgroundColor="{StaticResource Black70}" IsVisible="{Binding IsBusy}">
+            <forms1:AnimationView Animation="loading_animation.json" Loop="true" AutoPlay="true" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="500" HeightRequest="500"/>
+        </Grid>
+    </Grid>
+    
+
+</ContentPage>

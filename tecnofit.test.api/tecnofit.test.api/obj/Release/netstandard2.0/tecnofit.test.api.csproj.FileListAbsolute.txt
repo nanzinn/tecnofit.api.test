@@ -1,0 +1,15 @@
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\bin\Release\netstandard2.0\tecnofit.test.api.deps.json
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\bin\Release\netstandard2.0\tecnofit.test.api.dll
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\bin\Release\netstandard2.0\tecnofit.test.api.pdb
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\tecnofit.test.api.csprojAssemblyReference.cache
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\Views\Pages\ListPage.xaml.g.cs
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\Views\Pages\LoginPage.xaml.g.cs
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\Views\Pages\RegisterPage.xaml.g.cs
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\Views\Shells\HomePage.xaml.g.cs
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\tecnofit.test.api.csproj.CoreCompileInputs.cache
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\tecnofit.test.api.AssemblyInfoInputs.cache
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\tecnofit.test.api.AssemblyInfo.cs
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\tecnofit.test.api.dll
+C:\Users\pante\Source\Repos\tecnofit.test.api\tecnofit.test.api\tecnofit.test.api\obj\Release\netstandard2.0\tecnofit.test.api.pdb

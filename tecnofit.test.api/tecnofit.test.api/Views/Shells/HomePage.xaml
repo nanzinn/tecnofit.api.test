@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="tecnofit.test.api.Views.Shells.HomePage"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:pages="clr-namespace:tecnofit.test.api.Views.Pages;assembly=tecnofit.test.api"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BarBackgroundColor="{StaticResource Blue}"
+            android:TabbedPage.BarItemColor="{StaticResource White40}"
+            android:TabbedPage.BarSelectedItemColor="{StaticResource White}"
+            BarTextColor="{StaticResource White40}"
+            Title="{Binding Title}"
+            >
+
+    <pages:ListPage Title="Listagem" Icon="pay.png"/>
+    <pages:RegisterPage Title="Cadastro" Icon="list.png"/>
+
+
+</TabbedPage>

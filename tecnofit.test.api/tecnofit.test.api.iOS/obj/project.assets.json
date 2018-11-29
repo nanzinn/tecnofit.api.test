@@ -1,0 +1,1769 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "Com.Airbnb.iOS.Lottie/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.6",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.1.0.431",
+          "Unity.Container": "5.8.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        }
+      },
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.8.11": {
+        "type": "package",
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
+      "WebP.Touch/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.4.859": {
+        "type": "package",
+        "dependencies": {
+          "WebP.Touch": "1.0.8"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.4.859",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.4.0.1008975": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "tecnofit.test.api/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.7.0",
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "11.0.2",
+          "Prism.Unity.Forms": "7.1.0.431",
+          "RestSharp": "106.5.4",
+          "Xamarin.FFImageLoading.Forms": "2.4.4.859",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/tecnofit.test.api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tecnofit.test.api.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "Com.Airbnb.iOS.Lottie/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.6",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.1.0.431",
+          "Unity.Container": "5.8.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        }
+      },
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.8.11": {
+        "type": "package",
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
+      "WebP.Touch/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.4.859": {
+        "type": "package",
+        "dependencies": {
+          "WebP.Touch": "1.0.8"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.4.859",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.4.0.1008975": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "tecnofit.test.api/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.7.0",
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "11.0.2",
+          "Prism.Unity.Forms": "7.1.0.431",
+          "RestSharp": "106.5.4",
+          "Xamarin.FFImageLoading.Forms": "2.4.4.859",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/tecnofit.test.api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tecnofit.test.api.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Com.Airbnb.iOS.Lottie/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.6",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.1.0.431",
+          "Unity.Container": "5.8.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        }
+      },
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.8.11": {
+        "type": "package",
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
+      "WebP.Touch/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.4.859": {
+        "type": "package",
+        "dependencies": {
+          "WebP.Touch": "1.0.8"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.4.859",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.4.0.1008975": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "tecnofit.test.api/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.7.0",
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "11.0.2",
+          "Prism.Unity.Forms": "7.1.0.431",
+          "RestSharp": "106.5.4",
+          "Xamarin.FFImageLoading.Forms": "2.4.4.859",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/tecnofit.test.api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tecnofit.test.api.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Com.Airbnb.iOS.Lottie/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.6",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.1.0.431",
+          "Unity.Container": "5.8.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        }
+      },
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.8.11": {
+        "type": "package",
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
+      "WebP.Touch/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.4.859": {
+        "type": "package",
+        "dependencies": {
+          "WebP.Touch": "1.0.8"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.4.859",
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.4.0.1008975": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "tecnofit.test.api/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.7.0",
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "11.0.2",
+          "Prism.Unity.Forms": "7.1.0.431",
+          "RestSharp": "106.5.4",
+          "Xamarin.FFImageLoading.Forms": "2.4.4.859",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/tecnofit.test.api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tecnofit.test.api.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Com.Airbnb.iOS.Lottie/2.5.6": {
+      "sha512": "O/yHEdQiSVEE2VkaFemBbPLtFQ4FiNV5GemSw/A1Z6kaEkRwXXkkvPQ2diAwBUvXYX2G16JaHysgpzXqK0VaHA==",
+      "type": "package",
+      "path": "com.airbnb.ios.lottie/2.5.6",
+      "files": [
+        ".signature.p7s",
+        "com.airbnb.ios.lottie.2.5.6.nupkg.sha512",
+        "com.airbnb.ios.lottie.nuspec",
+        "lib/xamarinios10/Lottie.iOS.dll",
+        "lib/xamarinios10/Lottie.iOS.pdb",
+        "lib/xamarinios10/Lottie.iOS.xml",
+        "lib/xamarinmac20/Lottie.iOS.dll",
+        "lib/xamarinmac20/Lottie.iOS.pdb",
+        "lib/xamarinmac20/Lottie.iOS.xml",
+        "lib/xamarintvos10/Lottie.iOS.dll",
+        "lib/xamarintvos10/Lottie.iOS.pdb",
+        "lib/xamarintvos10/Lottie.iOS.xml",
+        "readme.txt"
+      ]
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.7.0": {
+      "sha512": "ZBsrJZWp5dQaOAad02EpxJYqFIckCunp71IjJJCwMfCTTC/h2/hshDfp5WYJI0VeUOrghWFWZsWdrDLNPYMsow==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/2.7.0",
+      "files": [
+        ".signature.p7s",
+        "com.airbnb.xamarin.forms.lottie.2.7.0.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "lib/monoandroid90/Lottie.Forms.dll",
+        "lib/monoandroid90/Lottie.Forms.pdb",
+        "lib/monoandroid90/Lottie.Forms.xml",
+        "lib/netstandard2.0/Lottie.Forms.dll",
+        "lib/netstandard2.0/Lottie.Forms.pdb",
+        "lib/netstandard2.0/Lottie.Forms.xml",
+        "lib/uap10.0.16299/Lottie.Forms.dll",
+        "lib/uap10.0.16299/Lottie.Forms.pdb",
+        "lib/uap10.0.16299/Lottie.Forms.pri",
+        "lib/uap10.0.16299/Lottie.Forms.xml",
+        "lib/xamarinios10/Lottie.Forms.dll",
+        "lib/xamarinios10/Lottie.Forms.pdb",
+        "lib/xamarinios10/Lottie.Forms.xml",
+        "lib/xamarinmac20/Lottie.Forms.dll",
+        "lib/xamarinmac20/Lottie.Forms.pdb",
+        "lib/xamarinmac20/Lottie.Forms.xml",
+        "readme.txt"
+      ]
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "fcyI3xN2vZV2FTGmxxMjV2LmQykV4PknROKrXrBG4lrTFJqlJJx5d1bOwTTJ/Y9XzpWBHGYsTSBnA0q3bWgGjg==",
+      "type": "package",
+      "path": "microsoft.csharp/4.5.0",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Prism.Core/7.1.0.431": {
+      "sha512": "tBkEf4cDYn2oQfW1wPem4jJK/H1Z4mJsnndO04n2oZyIql7Bj3OVlpfQ6vbPgbtlkEN0oyn02XVurZba3DYqmQ==",
+      "type": "package",
+      "path": "prism.core/7.1.0.431",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Prism.dll",
+        "lib/net45/Prism.pdb",
+        "lib/net45/Prism.xml",
+        "lib/netstandard1.0/Prism.dll",
+        "lib/netstandard1.0/Prism.pdb",
+        "lib/netstandard1.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.dll.mdb",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "lib/uap10.0.15063/Prism.dll",
+        "lib/uap10.0.15063/Prism.pdb",
+        "lib/uap10.0.15063/Prism.pri",
+        "lib/uap10.0.15063/Prism.xml",
+        "lib/uap10.0.16299/Prism.dll",
+        "lib/uap10.0.16299/Prism.pdb",
+        "lib/uap10.0.16299/Prism.pri",
+        "lib/uap10.0.16299/Prism.xml",
+        "prism.core.7.1.0.431.nupkg.sha512",
+        "prism.core.nuspec"
+      ]
+    },
+    "Prism.Forms/7.1.0.431": {
+      "sha512": "sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
+      "type": "package",
+      "path": "prism.forms/7.1.0.431",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard1.0/Prism.Forms.dll",
+        "lib/netstandard1.0/Prism.Forms.pdb",
+        "lib/netstandard1.0/Prism.Forms.xml",
+        "lib/netstandard2.0/Prism.Forms.dll",
+        "lib/netstandard2.0/Prism.Forms.pdb",
+        "lib/netstandard2.0/Prism.Forms.xml",
+        "prism.forms.7.1.0.431.nupkg.sha512",
+        "prism.forms.nuspec"
+      ]
+    },
+    "Prism.Unity.Forms/7.1.0.431": {
+      "sha512": "o2qR/dF/CsTO7HyJuQ7Yfc9T1ve/OufWZmZv6N40TfCQXrCIg3g0DMd8yFCaoYOt8yA0T51N8PfBZyVjJimhGQ==",
+      "type": "package",
+      "path": "prism.unity.forms/7.1.0.431",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid71/Prism.Unity.Forms.dll",
+        "lib/monoandroid71/Prism.Unity.Forms.pdb",
+        "lib/monoandroid71/Prism.Unity.Forms.xml",
+        "lib/netstandard1.0/Prism.Unity.Forms.dll",
+        "lib/netstandard1.0/Prism.Unity.Forms.pdb",
+        "lib/netstandard1.0/Prism.Unity.Forms.xml",
+        "lib/netstandard2.0/Prism.Unity.Forms.dll",
+        "lib/netstandard2.0/Prism.Unity.Forms.pdb",
+        "lib/netstandard2.0/Prism.Unity.Forms.xml",
+        "prism.unity.forms.7.1.0.431.nupkg.sha512",
+        "prism.unity.forms.nuspec"
+      ]
+    },
+    "RestSharp/106.5.4": {
+      "sha512": "YaGn6olg2GD0gLy7YDG1FsSnC6TBwgn/zZSONiOj7hPFJJ0Q+k2hBogyalUXkodihVa0ugRwCqSPCiqdNyFKzA==",
+      "type": "package",
+      "path": "restsharp/106.5.4",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.5.4.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "Unity.Abstractions/3.3.1": {
+      "sha512": "6Noq6W6cnB+TFgCf9FfgCN9wTVOiKI0eC1tl4dvbA3xg4ZSULKlpXMf2TVM945y/c1KvEdrq19joxHBOBB8rJA==",
+      "type": "package",
+      "path": "unity.abstractions/3.3.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net40/Unity.Abstractions.dll",
+        "lib/net45/Unity.Abstractions.dll",
+        "lib/net46/Unity.Abstractions.dll",
+        "lib/net47/Unity.Abstractions.dll",
+        "lib/netcoreapp1.0/Unity.Abstractions.dll",
+        "lib/netcoreapp2.0/Unity.Abstractions.dll",
+        "lib/netstandard1.0/Unity.Abstractions.dll",
+        "lib/netstandard2.0/Unity.Abstractions.dll",
+        "unity.abstractions.3.3.1.nupkg.sha512",
+        "unity.abstractions.nuspec"
+      ]
+    },
+    "Unity.Container/5.8.11": {
+      "sha512": "DGjzMnWjS4DvhXzVLnz2HfxEtwgPmfTwK31HILkL9ySiTSsshWWCGixfOo/nzcVzbBxeIwFbZ44jDqCqPMNENA==",
+      "type": "package",
+      "path": "unity.container/5.8.11",
+      "files": [
+        ".signature.p7s",
+        "lib/net40/Unity.Container.dll",
+        "lib/net45/Unity.Container.dll",
+        "lib/net46/Unity.Container.dll",
+        "lib/net47/Unity.Container.dll",
+        "lib/netcoreapp1.0/Unity.Container.dll",
+        "lib/netcoreapp2.0/Unity.Container.dll",
+        "lib/netstandard1.0/Unity.Container.dll",
+        "lib/netstandard2.0/Unity.Container.dll",
+        "unity.container.5.8.11.nupkg.sha512",
+        "unity.container.nuspec"
+      ]
+    },
+    "WebP.Touch/1.0.8": {
+      "sha512": "dvQaAn+m7cKL6k+evUilgikvrnk2qBm/h2lduAHFYIJFaJNIk9Z8pUI09gImzVKx5leUdvtLEzcLOOZAabspTA==",
+      "type": "package",
+      "path": "webp.touch/1.0.8",
+      "files": [
+        "lib/Xamarin.Mac20/WebP.Mac.dll",
+        "lib/Xamarin.Mac20/WebP.Mac.xml",
+        "lib/Xamarin.iOS10/WebP.Touch.dll",
+        "lib/Xamarin.iOS10/WebP.Touch.xml",
+        "webp.touch.1.0.8.nupkg.sha512",
+        "webp.touch.nuspec"
+      ]
+    },
+    "Xamarin.FFImageLoading/2.4.4.859": {
+      "sha512": "/U71/oKIKL+ompfmdYsIYYi3+r3Sj+81zUxg29M1RuNPywKsPKbHIndGiRw8bEYi1CX6meeidIeBpetjnN/ETw==",
+      "type": "package",
+      "path": "xamarin.ffimageloading/2.4.4.859",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Platform.dll",
+        "lib/MonoAndroid10/FFImageLoading.Platform.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Platform.xml",
+        "lib/MonoAndroid10/FFImageLoading.dll",
+        "lib/MonoAndroid10/FFImageLoading.pdb",
+        "lib/MonoAndroid10/FFImageLoading.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.xml",
+        "lib/netstandard1.0/FFImageLoading.Platform.dll",
+        "lib/netstandard1.0/FFImageLoading.Platform.xml",
+        "lib/netstandard1.0/FFImageLoading.dll",
+        "lib/netstandard1.0/FFImageLoading.pdb",
+        "lib/netstandard1.0/FFImageLoading.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.xml",
+        "lib/tizen40/FFImageLoading.Platform.dll",
+        "lib/tizen40/FFImageLoading.Platform.pdb",
+        "lib/tizen40/FFImageLoading.Platform.xml",
+        "lib/tizen40/FFImageLoading.dll",
+        "lib/tizen40/FFImageLoading.pdb",
+        "lib/tizen40/FFImageLoading.xml",
+        "lib/uap/FFImageLoading.Platform.dll",
+        "lib/uap/FFImageLoading.Platform.pdb",
+        "lib/uap/FFImageLoading.Platform.xml",
+        "lib/uap/FFImageLoading.dll",
+        "lib/uap/FFImageLoading.pdb",
+        "lib/uap/FFImageLoading.xml",
+        "lib/win81/FFImageLoading.Platform.dll",
+        "lib/win81/FFImageLoading.Platform.pdb",
+        "lib/win81/FFImageLoading.Platform.xml",
+        "lib/win81/FFImageLoading.dll",
+        "lib/win81/FFImageLoading.pdb",
+        "lib/win81/FFImageLoading.xml",
+        "lib/wpa81/FFImageLoading.Platform.dll",
+        "lib/wpa81/FFImageLoading.Platform.pdb",
+        "lib/wpa81/FFImageLoading.Platform.xml",
+        "lib/wpa81/FFImageLoading.dll",
+        "lib/wpa81/FFImageLoading.pdb",
+        "lib/wpa81/FFImageLoading.xml",
+        "xamarin.ffimageloading.2.4.4.859.nupkg.sha512",
+        "xamarin.ffimageloading.nuspec"
+      ]
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+      "sha512": "OGCxTJQ7IlbRC7jo6HsdAkTdShjkED2aZXRFX1zeWJ9+9R8bm+FseLaWXVdUyKAD9jisQj4TpGHXsv9ZmtJ3CA==",
+      "type": "package",
+      "path": "xamarin.ffimageloading.forms/2.4.4.859",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.dll",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.xml",
+        "lib/MonoAndroid10/FFImageLoading.Forms.dll",
+        "lib/MonoAndroid10/FFImageLoading.Forms.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Forms.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.xml",
+        "lib/netstandard1.0/FFImageLoading.Forms.dll",
+        "lib/netstandard1.0/FFImageLoading.Forms.pdb",
+        "lib/netstandard1.0/FFImageLoading.Forms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.xml",
+        "lib/tizen40/FFImageLoading.Forms.Platform.dll",
+        "lib/tizen40/FFImageLoading.Forms.Platform.pdb",
+        "lib/tizen40/FFImageLoading.Forms.Platform.xml",
+        "lib/tizen40/FFImageLoading.Forms.dll",
+        "lib/tizen40/FFImageLoading.Forms.pdb",
+        "lib/tizen40/FFImageLoading.Forms.xml",
+        "lib/uap/FFImageLoading.Forms.Platform.dll",
+        "lib/uap/FFImageLoading.Forms.Platform.pdb",
+        "lib/uap/FFImageLoading.Forms.Platform.xml",
+        "lib/uap/FFImageLoading.Forms.dll",
+        "lib/uap/FFImageLoading.Forms.pdb",
+        "lib/uap/FFImageLoading.Forms.xml",
+        "xamarin.ffimageloading.forms.2.4.4.859.nupkg.sha512",
+        "xamarin.ffimageloading.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms/3.4.0.1008975": {
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "type": "package",
+      "path": "xamarin.forms/3.4.0.1008975",
+      "files": [
+        ".signature.p7s",
+        "build/Xamarin.Forms.DefaultItems.props",
+        "build/Xamarin.Forms.DefaultItems.targets",
+        "build/Xamarin.Forms.props",
+        "build/Xamarin.Forms.targets",
+        "build/net461/Mono.Cecil.Mdb.dll",
+        "build/net461/Mono.Cecil.Pdb.dll",
+        "build/net461/Mono.Cecil.Rocks.dll",
+        "build/net461/Mono.Cecil.dll",
+        "build/net461/System.CodeDom.dll",
+        "build/net461/Xamarin.Forms.Build.Tasks.dll",
+        "build/net461/Xamarin.Forms.Core.dll",
+        "build/net461/Xamarin.Forms.Xaml.dll",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/System.CodeDom.dll",
+        "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard2.0/Xamarin.Forms.Core.dll",
+        "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/tizen40/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/tizen40/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/tizen40/Xamarin.Forms.Core.dll",
+        "lib/tizen40/Xamarin.Forms.Core.pdb",
+        "lib/tizen40/Xamarin.Forms.Core.xml",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.pdb",
+        "lib/tizen40/Xamarin.Forms.Platform.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.pdb",
+        "lib/tizen40/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.xml",
+        "xamarin.forms.3.4.0.1008975.nupkg.sha512",
+        "xamarin.forms.nuspec"
+      ]
+    },
+    "tecnofit.test.api/1.0.0": {
+      "type": "project",
+      "path": "../tecnofit.test.api/tecnofit.test.api.csproj",
+      "msbuildProject": "../tecnofit.test.api/tecnofit.test.api.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "Microsoft.CSharp >= 4.5.0",
+      "Prism.Unity.Forms >= 7.1.0.431",
+      "RestSharp >= 106.5.4",
+      "Xamarin.Forms >= 3.4.0.1008975",
+      "tecnofit.test.api >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pante\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pante\\Source\\Repos\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api.iOS\\tecnofit.test.api.iOS.csproj",
+      "projectName": "tecnofit.test.api.iOS",
+      "projectPath": "C:\\Users\\pante\\Source\\Repos\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api.iOS\\tecnofit.test.api.iOS.csproj",
+      "packagesPath": "C:\\Users\\pante\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pante\\Source\\Repos\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api.iOS\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pante\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "C:\\Users\\pante\\Source\\Repos\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api.csproj": {
+              "projectPath": "C:\\Users\\pante\\Source\\Repos\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api\\tecnofit.test.api.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "Microsoft.CSharp": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          },
+          "Prism.Unity.Forms": {
+            "target": "Package",
+            "version": "[7.1.0.431, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.5.4, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.4.0.1008975, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

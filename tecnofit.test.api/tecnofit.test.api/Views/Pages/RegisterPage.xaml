@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:behavior="clr-namespace:tecnofit.test.api.UI.Behavior;assembly=tecnofit.test.api"
+             xmlns:forms1="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="tecnofit.test.api.Views.Pages.RegisterPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <behavior:CurrencyConverter x:Key="currencyConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid>
+      
+      <forms:CachedImage Source="background.png" Aspect="AspectFill" VerticalOptions="FillAndExpand"/>
+      
+      <ScrollView>
+          <StackLayout>
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10,20,10,10" >
+                  <Entry Placeholder="Digite o título da conta" Text="{Binding AccountTitle}" TextColor="{StaticResource White}"/>
+              </Frame>
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10">
+                  <Picker Title="Forma de pagamento" ItemsSource="{Binding TypePayment}" SelectedItem="{Binding TypePaymentSelected}" TextColor="{StaticResource White}" >
+                  </Picker>
+              </Frame>
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10" >
+                  <Picker Title="Categoria" ItemsSource="{Binding AccountCategory}" SelectedItem="{Binding AccountCategorySelected}"  TextColor="{StaticResource White}"/>
+              </Frame>
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10" >
+                  <Picker Title="Centro de responsabilidade"  ItemsSource="{Binding ResponsabilityCenter}" SelectedItem="{Binding ResponsabilityCenterSelected}"  TextColor="{StaticResource White}"/>
+              </Frame>
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10" >
+                  <Picker Title="Conta bancária" ItemsSource="{Binding BankAccount}" SelectedItem="{Binding BankAccountSelected}"  TextColor="{StaticResource White}"/>
+              </Frame>
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10,10,10,0" IsEnabled="False">
+                  <DatePicker HorizontalOptions="CenterAndExpand" Date="{Binding MaturityDate}"  TextColor="{StaticResource White}"/>
+              </Frame>
+              
+              <Label HorizontalOptions="CenterAndExpand" Text="Data do vencimento da conta"  TextColor="{StaticResource White}" Margin="10,0,10,10"/>
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10" >
+                  <Entry Text="{Binding AccountValue, Converter={StaticResource currencyConverter}}" Keyboard="Numeric"  TextColor="{StaticResource White}"/>
+              </Frame>
+              <Label HorizontalOptions="CenterAndExpand" Text="Digite o valor da conta"  TextColor="{StaticResource White}" Margin="10,0,10,10" IsVisible="{Binding IsPayment}"/>
+
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10" >
+                  <Entry Text="{Binding DisccountValue, Converter={StaticResource currencyConverter}}" Keyboard="Numeric"  TextColor="{StaticResource White}"/>
+              </Frame>
+              <Label HorizontalOptions="CenterAndExpand" Text="Digite o valor de desconto"  TextColor="{StaticResource White}" Margin="10,0,10,10" IsVisible="{Binding IsPayment}"/>
+
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10" >
+                  <Entry Text="{Binding FineValue, Converter={StaticResource currencyConverter}}" Keyboard="Numeric"  TextColor="{StaticResource White}"/>
+              </Frame>
+              <Label HorizontalOptions="CenterAndExpand" Text="Digite o valor da multa" TextColor="White" Margin="10,0,10,10" IsVisible="{Binding IsPayment}"/>
+              
+              <Label HorizontalOptions="CenterAndExpand" Text="Caso não efetuado o pagamento desconsidere o item abaixo"  TextColor="{StaticResource White}" Margin="20,20,20,5" HorizontalTextAlignment="Center"/>
+              
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10" >
+                  <Entry  Text="{Binding PaymentValue, Converter={StaticResource currencyConverter}}" Keyboard="Numeric"  TextColor="{StaticResource White}"/>
+              </Frame>
+              <Label HorizontalOptions="CenterAndExpand" Text="Digite o valor pago"  TextColor="{StaticResource White}" Margin="10,0,10,10" IsVisible="{Binding IsPayment}"/>
+
+              <Frame Padding="0" BackgroundColor="{StaticResource Green}" CornerRadius="5" WidthRequest="260" HeightRequest="60" HorizontalOptions="CenterAndExpand" Margin="10,10,10,0" IsEnabled="False" IsVisible="{Binding IsPayment}">
+                 <DatePicker HorizontalOptions="CenterAndExpand" />
+              </Frame>
+              
+              <Label HorizontalOptions="CenterAndExpand" Text="Data do pagamento"  TextColor="{StaticResource White}" Margin="10,0,10,10" IsVisible="{Binding IsPayment}"/>
+              
+              <Button Text="Confirmar" BackgroundColor="{StaticResource Green}"  TextColor="{StaticResource White}" WidthRequest="260" Margin="20" Command="{Binding BtConfirmCommand}"/>
+              
+          </StackLayout>
+      </ScrollView>
+        
+        <Grid Grid.Row="0"  BackgroundColor="{StaticResource Black70}" IsVisible="{Binding IsBusy}">
+            <forms1:AnimationView Animation="loading_animation.json" Loop="true" AutoPlay="true" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="500" HeightRequest="500"/>
+        </Grid>
+  </Grid>
+</ContentPage>

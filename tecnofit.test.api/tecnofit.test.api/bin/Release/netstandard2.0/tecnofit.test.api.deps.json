@@ -1,0 +1,245 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "02dbaf59f4af84fb48fc5fa204bb2555cece18dd"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "tecnofit.test.api/1.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2",
+          "Prism.Unity.Forms": "7.1.0.431",
+          "RestSharp": "106.5.4",
+          "Xamarin.FFImageLoading.Forms": "2.4.4.859",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "runtime": {
+          "tecnofit.test.api.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "Prism.Core/7.1.0.431": {
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {
+            "assemblyVersion": "7.1.0.431",
+            "fileVersion": "7.1.0.431"
+          }
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {
+            "assemblyVersion": "7.1.0.431",
+            "fileVersion": "7.1.0.431"
+          }
+        }
+      },
+      "Prism.Unity.Forms/7.1.0.431": {
+        "dependencies": {
+          "Prism.Forms": "7.1.0.431",
+          "Unity.Container": "5.8.11"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {
+            "assemblyVersion": "7.1.0.431",
+            "fileVersion": "7.1.0.431"
+          }
+        }
+      },
+      "RestSharp/106.5.4": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.5.4.0",
+            "fileVersion": "106.5.4.0"
+          }
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {
+            "assemblyVersion": "3.3.1.0",
+            "fileVersion": "3.3.1.0"
+          }
+        }
+      },
+      "Unity.Container/5.8.11": {
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {
+            "assemblyVersion": "5.8.11.0",
+            "fileVersion": "5.8.11.0"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.4.859": {
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
+          },
+          "lib/netstandard1.0/FFImageLoading.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.4.859",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {
+            "assemblyVersion": "2.4.4.859",
+            "fileVersion": "2.4.4.859"
+          }
+        }
+      },
+      "Xamarin.Forms/3.4.0.1008975": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tecnofit.test.api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fcyI3xN2vZV2FTGmxxMjV2LmQykV4PknROKrXrBG4lrTFJqlJJx5d1bOwTTJ/Y9XzpWBHGYsTSBnA0q3bWgGjg==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R73gEjqCkI2Nw/IlN8QvcgPNklqQiPowp47JwvW0Bnp/RZnjN4UrJwEvWVJWRK1MsQ+HIfGe9i4aQlfK+ei9jA==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Prism.Core/7.1.0.431": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBkEf4cDYn2oQfW1wPem4jJK/H1Z4mJsnndO04n2oZyIql7Bj3OVlpfQ6vbPgbtlkEN0oyn02XVurZba3DYqmQ==",
+      "path": "prism.core/7.1.0.431",
+      "hashPath": "prism.core.7.1.0.431.nupkg.sha512"
+    },
+    "Prism.Forms/7.1.0.431": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
+      "path": "prism.forms/7.1.0.431",
+      "hashPath": "prism.forms.7.1.0.431.nupkg.sha512"
+    },
+    "Prism.Unity.Forms/7.1.0.431": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o2qR/dF/CsTO7HyJuQ7Yfc9T1ve/OufWZmZv6N40TfCQXrCIg3g0DMd8yFCaoYOt8yA0T51N8PfBZyVjJimhGQ==",
+      "path": "prism.unity.forms/7.1.0.431",
+      "hashPath": "prism.unity.forms.7.1.0.431.nupkg.sha512"
+    },
+    "RestSharp/106.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YaGn6olg2GD0gLy7YDG1FsSnC6TBwgn/zZSONiOj7hPFJJ0Q+k2hBogyalUXkodihVa0ugRwCqSPCiqdNyFKzA==",
+      "path": "restsharp/106.5.4",
+      "hashPath": "restsharp.106.5.4.nupkg.sha512"
+    },
+    "Unity.Abstractions/3.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Noq6W6cnB+TFgCf9FfgCN9wTVOiKI0eC1tl4dvbA3xg4ZSULKlpXMf2TVM945y/c1KvEdrq19joxHBOBB8rJA==",
+      "path": "unity.abstractions/3.3.1",
+      "hashPath": "unity.abstractions.3.3.1.nupkg.sha512"
+    },
+    "Unity.Container/5.8.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DGjzMnWjS4DvhXzVLnz2HfxEtwgPmfTwK31HILkL9ySiTSsshWWCGixfOo/nzcVzbBxeIwFbZ44jDqCqPMNENA==",
+      "path": "unity.container/5.8.11",
+      "hashPath": "unity.container.5.8.11.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading/2.4.4.859": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/U71/oKIKL+ompfmdYsIYYi3+r3Sj+81zUxg29M1RuNPywKsPKbHIndGiRw8bEYi1CX6meeidIeBpetjnN/ETw==",
+      "path": "xamarin.ffimageloading/2.4.4.859",
+      "hashPath": "xamarin.ffimageloading.2.4.4.859.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.4.859": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OGCxTJQ7IlbRC7jo6HsdAkTdShjkED2aZXRFX1zeWJ9+9R8bm+FseLaWXVdUyKAD9jisQj4TpGHXsv9ZmtJ3CA==",
+      "path": "xamarin.ffimageloading.forms/2.4.4.859",
+      "hashPath": "xamarin.ffimageloading.forms.2.4.4.859.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.4.0.1008975": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "path": "xamarin.forms/3.4.0.1008975",
+      "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
+    }
+  }
+}

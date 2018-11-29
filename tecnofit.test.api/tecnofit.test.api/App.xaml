@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms"
+             x:Class="tecnofit.test.api.App">
+	<Application.Resources>
+
+		<Color x:Key="Blue">#2196F3</Color>
+		<Color x:Key="Green">#B4CB04</Color>
+		<Color x:Key="White">#F6F6F6</Color>
+		<Color x:Key="Black70">#b3000000</Color>
+		<Color x:Key="White40">#66FFFFFF</Color>
+
+	</Application.Resources>
+</prism:PrismApplication>

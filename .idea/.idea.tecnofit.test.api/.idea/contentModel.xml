@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\pante\.nuget\packages\xamarin.android.arch.lifecycle.runtime\1.0.3.1\proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="C:\Users\pante\.nuget\packages\xamarin.android.support.animated.vector.drawable\27.0.2.1\proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="C:\Users\pante\.nuget\packages\xamarin.android.support.core.ui\27.0.2.1\proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="C:\Users\pante\.nuget\packages\xamarin.android.support.design\27.0.2.1\proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="C:\Users\pante\.nuget\packages\xamarin.android.support.media.compat\27.0.2.1\proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="C:\Users\pante\.nuget\packages\xamarin.android.support.transition\27.0.2.1\proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="C:\Users\pante\.nuget\packages\xamarin.android.support.v7.recyclerview\27.0.2.1\proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="C:\Users\pante\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\pante\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\pante\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_tecnofit.test.api.1282855839.00" t="ExcludeRecursive" />
+    <e p="C:\Users\pante\Source\Repos\tecnofit.test.api" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="tecnofit.test.api\tecnofit.test.api" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Constants.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="AccountModel.cs" t="Include" />
+          <e p="AccountStatement.cs" t="Include" />
+          <e p="PickerFieldModel.cs" t="Include" />
+          <e p="RegisterModel.cs" t="Include" />
+          <e p="UserModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="tecnofit.test.api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="tecnofit.test.api.csproj" t="IncludeRecursive" />
+        <e p="UI" t="Include">
+          <e p="Behavior" t="Include">
+            <e p="CurrencyConverter.cs" t="Include" />
+            <e p="EmptyEntryValidatorBehavior.cs" t="Include" />
+          </e>
+          <e p="Controls" t="Include">
+            <e p="ExtendedEntry.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="HomePageViewModel.cs" t="Include" />
+          <e p="ListPageViewModel.cs" t="Include" />
+          <e p="LoginPageViewModel.cs" t="Include" />
+          <e p="RegisterPageViewModel.cs" t="Include" />
+          <e p="Services" t="Include">
+            <e p="IMessageService.cs" t="Include" />
+            <e p="IRestService.cs" t="Include" />
+          </e>
+          <e p="ViewModelBase.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="Pages" t="Include">
+            <e p="ListPage.xaml" t="Include" />
+            <e p="ListPage.xaml.cs" t="Include" />
+            <e p="LoginPage.xaml" t="Include" />
+            <e p="LoginPage.xaml.cs" t="Include" />
+            <e p="RegisterPage.xaml" t="Include" />
+            <e p="RegisterPage.xaml.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="MessageService.cs" t="Include" />
+            <e p="RestService.cs" t="Include" />
+          </e>
+          <e p="Shells" t="Include">
+            <e p="HomePage.xaml" t="Include" />
+            <e p="HomePage.xaml.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="tecnofit.test.api\tecnofit.test.api.Android" t="IncludeRecursive">
+        <e p="Assets" t="Include">
+          <e p="AboutAssets.txt" t="Include" />
+          <e p="loading_animation.json" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainActivity.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AndroidManifest.xml" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Renderer" t="Include">
+          <e p="ExtendedEntryRenderer.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AboutResources.txt" t="Include" />
+          <e p="drawable" t="Include">
+            <e p="list.png" t="Include" />
+            <e p="logo.png" t="Include" />
+            <e p="manBtLoginEnter.png" t="Include" />
+            <e p="pay.png" t="Include" />
+          </e>
+          <e p="drawable-hdpi" t="Include">
+            <e p="background.png" t="Include" />
+          </e>
+          <e p="drawable-xhdpi" t="Include">
+            <e p="background.png" t="Include" />
+          </e>
+          <e p="drawable-xxhdpi" t="Include">
+            <e p="background.png" t="Include" />
+          </e>
+          <e p="drawable-xxxhdpi" t="Include">
+            <e p="background.png" t="Include" />
+          </e>
+          <e p="layout" t="Include">
+            <e p="Tabbar.axml" t="Include" />
+            <e p="Toolbar.axml" t="Include" />
+          </e>
+          <e p="mipmap-hdpi" t="Include">
+            <e p="ic_launcher.png" t="Include" />
+          </e>
+          <e p="mipmap-mdpi" t="Include">
+            <e p="ic_launcher.png" t="Include" />
+          </e>
+          <e p="mipmap-xhdpi" t="Include">
+            <e p="ic_launcher.png" t="Include" />
+          </e>
+          <e p="mipmap-xxhdpi" t="Include">
+            <e p="ic_launcher.png" t="Include" />
+          </e>
+          <e p="mipmap-xxxhdpi" t="Include">
+            <e p="ic_launcher.png" t="Include" />
+          </e>
+          <e p="Resource.Designer.cs" t="Include" />
+          <e p="values" t="Include">
+            <e p="styles.xml" t="Include" />
+          </e>
+        </e>
+        <e p="tecnofit.test.api.Android.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="tecnofit.test.api\tecnofit.test.api.iOS" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="Contents.json" t="Include" />
+            <e p="Icon-App-20x20@1x.png" t="Include" />
+            <e p="Icon-App-20x20@2x.png" t="Include" />
+            <e p="Icon-App-20x20@3x.png" t="Include" />
+            <e p="Icon-App-29x29@1x.png" t="Include" />
+            <e p="Icon-App-29x29@2x.png" t="Include" />
+            <e p="Icon-App-29x29@3x.png" t="Include" />
+            <e p="Icon-App-40x40@1x.png" t="Include" />
+            <e p="Icon-App-40x40@2x.png" t="Include" />
+            <e p="Icon-App-40x40@3x.png" t="Include" />
+            <e p="Icon-App-57x57@1x.png" t="Include" />
+            <e p="Icon-App-57x57@2x.png" t="Include" />
+            <e p="Icon-App-60x60@1x.png" t="Include" />
+            <e p="Icon-App-60x60@2x.png" t="Include" />
+            <e p="Icon-App-60x60@3x.png" t="Include" />
+            <e p="Icon-App-72x72@1x.png" t="Include" />
+            <e p="Icon-App-72x72@2x.png" t="Include" />
+            <e p="Icon-App-76x76@1x.png" t="Include" />
+            <e p="Icon-App-76x76@2x.png" t="Include" />
+            <e p="Icon-App-76x76@3x.png" t="Include" />
+            <e p="Icon-App-83.5x83.5@2x.png" t="Include" />
+            <e p="Icon-Small-50x50@1x.png" t="Include" />
+            <e p="Icon-Small-50x50@2x.png" t="Include" />
+            <e p="ItunesArtwork@2x.png" t="Include" />
+          </e>
+          <e p="Contents.json" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="iTunesArtwork@1x.png" t="Include" />
+        <e p="ItunesArtwork@2x.png" t="Include" />
+        <e p="iTunesArtwork@3x.png" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Default-568h@2x.png" t="Include" />
+          <e p="Default-Portrait.png" t="Include" />
+          <e p="Default-Portrait@2x.png" t="Include" />
+          <e p="Default.png" t="Include" />
+          <e p="Default@2x.png" t="Include" />
+          <e p="LaunchScreen.storyboard" t="Include" />
+        </e>
+        <e p="tecnofit.test.api.iOS.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="tecnofit.test.api.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
